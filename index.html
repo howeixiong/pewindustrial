@@ -10,12 +10,14 @@ table {
 .header {
  position:fixed;
  top:0px;
- width:100%;
+ width:780px;
+ max-width:780px;
  background-color:white;
+ display:flex;
 }
 
 .body {
- padding-top:100px;
+ padding-top:148px;
  padding-bottom:60px;
  max-width:780px;
 }
@@ -23,7 +25,8 @@ table {
 .footer {
  position:fixed;
  bottom:0px;
- width:100%;
+ width:780px;
+ max-width:780px;
  background-color:white;
 }
 
@@ -35,16 +38,22 @@ table {
 </style>
 </head>
 <body>
+<div style="max-width:780px;margin:auto;">
 <div class="header">
-<h1>
-<a href="index.html">About us</a>
-/
-<a href="products.html">Products</a>
-/
-<a href="contactus.html">Contact us</a>
-</h1>
+<img src="logo.png" style="float:left;max-height:148px"></img>
+<ul>
+<li><a href="index.html">About us</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="contactus.html">Contact us</a></li>
+</ul>
 </div>
-<div class="body">
+<div>
+</div>
+<div class="body" style="display:flex">
+<div style="max-width:260px;">
+<img src="planet.jpg" style="max-width:260px;"></img>
+</div>
+<div>
 <h1><span class="blue">ABOUT US</span></h1>
 <p>
 <span class="blue">Welcome to Pewindustrial.com !</span>
@@ -64,8 +73,10 @@ Contact us in Singapore for more detailed information on our products.
 <tr><td></td><td></td><td><a href="mailto:sbest@singnet.com.sg">sbest@singnet.com.sg</a></td></tr>
 </table>
 </div>
+</div>
 <div class="footer">
 <img src="copyright.gif"></img>
+</div>
 </div>
 </body>
 </html>

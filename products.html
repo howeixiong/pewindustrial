@@ -17,12 +17,14 @@
 .header {
  position:fixed;
  top:0px;
- width:100%;
+ width:780px;
+ max-width:780px;
  background-color:white;
+ display:flex;
 }
 
 .body {
- padding-top:100px;
+ padding-top:148px;
  padding-bottom:60px;
  max-width:780px;
 }
@@ -30,24 +32,27 @@
 .footer {
  position:fixed;
  bottom:0px;
- width:100%;
+ width:780px;
+ max-width:780px;
  background-color:white;
 }
 </style>
 </head>
 <body>
+<div style="max-width:780px;margin:auto;">
 <div class="header">
-<h1>
-<a href="index.html">About us</a>
-/
-<a href="products.html">Products</a>
-/
-<a href="contactus.html">Contact us</a>
-</h1>
+<img src="logo.png" style="float:left;max-height:148px;"></img>
+<ul>
+<li><a href="index.html">About us</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="contactus.html">Contact us</a></li>
+</ul>
 </div>
 <div class="body">
+<div style="height:175px">
+<img src="planet.jpg" style="float:left;max-width:260px;margin:5px;"></img>
 Pew Industrial Company offers a broad range of advanced technologies in anti-terrorist products and security equipment for utilization by law enforcement organisations, security services providers to protect and safeguard those in the front line and the public at large.
-<br>
+</div>
 <h1><span class="blue">UP-TO-DATE SECURITY SOLUTIONS</span></h1>
 <br>
 <h2><span class="blue">Portable Digital X-Ray Inspection System </span><span class="red">(SXR-150)</span></h2>
@@ -143,6 +148,7 @@ Features & Technical Specifications:
 </div>
 <div class="footer">
 <img src="copyright.gif"></img>
+</div>
 </div>
 </body>
 </html>
