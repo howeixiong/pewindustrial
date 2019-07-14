@@ -1,1 +1,1 @@
-include: [".well-known", ".nojekyll"]
+include: [".well-known", ".nojekyll", ".well-known/acme-challenge/XWEp44yOaWv05TZ4RX9UGQgnxgfkplmV8zbSxIMSq1Y"]
